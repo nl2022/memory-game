@@ -1,0 +1,89 @@
+/* Intro section */
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.2rem;
+}
+
+.intro-section{
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+h1 {
+    color: #533da0;
+    font-family: 'Dancing Script', cursive;
+    font-size: 6rem;
+    margin-bottom: 1rem;
+}
+
+.subheading {
+    margin-bottom: 30px;
+}
+
+.play-btn{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/* Game section */
+
+.game-area{
+    max-width: 850px;
+}
+
+.col{
+    height: 210px;
+}
+
+.col:hover .cd-img {
+    height:204px;
+    margin-top:-2px;
+}
+
+.clicked {
+    height:204px;
+    margin-top:-2px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+/* Attempts section */
+.attempts {
+    margin: 30px;
+}
+
+/* Card collection section */
+h2 {
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+/* Footer */
+footer {
+    color:grey;
+    font-size: 1rem;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+/* Responsive controls */
+@media (max-width: 991px) {
+    .game-area{
+        max-width: 567px;
+    }
+}
+
+@media (max-width: 767px) {
+    .game-area{
+        max-width: 425px;
+    }
+}
+
+@media (max-width: 575px) {
+    .game-area{
+        max-width: 307px;
+    }
+}
