@@ -108,7 +108,6 @@ function startGame(){
         resetCard(keyValue);
     }
     enableCardListener();
-    console.log(game);
 }
 
 function updateAttempts(val){
